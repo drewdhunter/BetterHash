@@ -28,8 +28,6 @@ class Dh_BetterHash_Model_Hash extends Mage_Core_Model_Encryption
     */
     public function hash($data)
     {
-        
-        //exit;
         return hash($this->_hashMethod, $data);
     }
 }
