@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Dh_BetterHash>
+            <version>1.0.0</version>
+        </Dh_BetterHash>
+    </modules>
+    <global>
+        <helpers>
+            <core>
+                <encryption_model>Dh_BetterHash_Model_Hash</encryption_model>
+            </core>  
+        </helpers>
+        <resources>
+            <betterhash_setup>
+                <setup>
+                    <module>Dh_BetterHash</module>
+                </setup>
+            </betterhash_setup>
+        </resources>
+    </global>
+</config>
